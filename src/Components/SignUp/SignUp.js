@@ -27,18 +27,23 @@ const SignUp = () => {
   }
     return ( <div className="signUp-wrapper">
         <form onSubmit={handleSubmit}>
-        <label>email</label>
-        <input type="email" onChange={(event) => setEmail(event.target.value)}/>
+        <label>Email:</label>
         <br></br>
-        <label>First Name</label>
-        <input type="text" onChange={(event) => setFirstName(event.target.value)} />
+        <input className="signUp-input" type="email" onChange={(event) => setEmail(event.target.value)}/>
         <br></br>
-        <label>Last Name</label>
-        <input type="text" onChange={(event) => setLastName(event.target.value)} />
+        <label>First Name:</label>
         <br></br>
-        <label>password</label>
-        <input type="password" onChange={(event) => setPassword(event.target.value)} />
-        <input type="submit" />
+        <input className="signUp-input" type="text" onChange={(event) => setFirstName(event.target.value)} />
+        <br></br>
+        <label>Last Name:</label>
+        <br></br>
+        <input className="signUp-input" type="text" onChange={(event) => setLastName(event.target.value)} />
+        <br></br>
+        <label>Password:</label>
+        <br></br>
+        <input className="signUp-input" type="password" onChange={(event) => setPassword(event.target.value)} />
+        <br></br>
+        <input className="signUp-input-button" type="submit" />
       </form>
     </div> );
 }

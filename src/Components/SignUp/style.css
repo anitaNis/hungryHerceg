@@ -1,3 +1,35 @@
 .signUp-wrapper {
-  display: none;
+  width: 40%;
+  text-align: right;
+  margin-right: 5em;
+  margin-top: -2em;
+}
+label {
+  font-size: 20px;
+}
+.signUp-input {
+  width: 20em;
+  height: 3em;
+  background-color: rgba(255, 255, 255, 0.246);
+  border-style: none;
+  border-radius: 10px;
+}
+
+.signUp-input-button {
+  background-color: #f0af00;
+  color: black;
+  width: 6em;
+  height: 2em;
+  font-size: 20px;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 10px;
+  border-width: 3px;
+  margin-top: 1em;
+}
+
+.signUp-input-button:hover {
+  width: 5.5em;
+  height: 1.7em;
+  transition: 0.5s;
 }

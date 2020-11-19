@@ -9,9 +9,9 @@ import CreateRestaurantDatabase from "../CreateRestaurantDatabase/CreateRestaura
 const WelcomePage = () => {
     return ( <div className="welcome-wrapper">
         <h1>ARE YOU <br></br> HUNGRY?</h1>
-        <h3>Easy solution for company food ordering!</h3>
+        {/* <h3>Easy solution for company food ordering!</h3>  */}
         <Login />
-        <SignUp />
+         <SignUp />
         <CreateRestaurant />
         <CreateRestaurantDatabase />
     </div> );
