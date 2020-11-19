@@ -5,6 +5,7 @@ import SignUp from '../SignUp/SignUp';
 import CreateRestaurant from "../CreateRestaurant/CreateRestaurant"
 import CreateRestaurantDatabase from "../CreateRestaurantDatabase/CreateRestaurantDatabase"
 
+
 const WelcomePage = () => {
     return ( <div className="welcome-wrapper">
         <h1>ARE YOU <br></br> HUNGRY?</h1>

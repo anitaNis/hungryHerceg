@@ -5,13 +5,6 @@ body {
   font-family: "Arial Black";
 }
 
-.welcome-wrapper {
-  text-shadow: -3px -3px 3px rgba(240, 176, 0, 1);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-
 h1 {
   font-size: 100px;
   margin-top: 0;
@@ -20,9 +13,45 @@ h1 {
 }
 
 h3 {
-  margin-top: 0;
+  margin-top: -3em;
   width: 41%;
   font-size: 50px;
-  text-align: left;
-  margin-left: 1em;
+  text-align: right;
+  margin-right: 2em;
+}
+
+.welcome-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 8%;
+  text-shadow: -2px -2px 3px rgba(240, 176, 0, 1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-family: "Arial Black";
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-left: 0.4em;
+  }
+
+  h3 {
+    width: 41%;
+    font-size: 10px;
+  }
+
+  .welcome-wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 8%;
+    text-shadow: -2px -2px 3px rgba(240, 176, 0, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
 }

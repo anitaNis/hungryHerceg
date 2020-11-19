@@ -1,17 +1,19 @@
+.logo {
+  width: 20em;
+  height: 15em;
+  background-image: url("./logo2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .navBar {
+  width: 80%;
+  margin: auto;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   padding: 3em;
   height: 200px;
-}
-
-.logo {
-  width: 20em;
-  height: 25em;
-  background-image: url("./logo1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .userLogin-button {
@@ -32,5 +34,35 @@
 .userLogin-button:hover {
   background-color: #f0af00;
   color: black;
-  transition: 0.3s;
+  width: 11.7em;
+  height: 3.7em;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 10em;
+    height: 10em;
+    background-image: url("./logo2.png");
+    background-repeat: no-repeat;
+  }
+  .navBar {
+    width: 100%;
+    background-color: transparent;
+    padding: 3em;
+  }
+
+  .userLogin-button {
+    width: 5em;
+    height: 2em;
+    margin: 1em;
+    color: #f0af00;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #f0af00;
+    border-radius: 10px;
+    border-width: 3px;
+  }
 }

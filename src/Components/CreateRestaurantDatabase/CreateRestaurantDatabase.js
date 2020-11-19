@@ -2,6 +2,7 @@ import React from 'react';
 import ApiKey from "../../services/ApiKey/ApiKey"
 import ApiBase from "../../services/ApiBase/ApiBase";
 import axios from "axios";
+import "./style.css"
 
 const CreateRestaurantDatabase = () => {
 
@@ -108,7 +109,7 @@ const CreateRestaurantDatabase = () => {
 
 
     return (
-        <button >Upisi Restorane</button>
+        <button class = "add-restaurants-button">Upisi Restorane</button>
     );
 }
  

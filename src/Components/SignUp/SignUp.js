@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import ApiBase from "../../services/ApiBase/ApiBase"
 import axios from 'axios';
+import "./style.css"
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
