@@ -55,6 +55,23 @@ const team = [
         img: './imagesAbout/milica.jpg',
         desc: ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, corrupti.'
     },
+    {
+        id: 8,
+        name: 'Ivan Herceg',
+        email: 'ivan.herceg@svea.com',
+        category: `Mentors`,
+        img: './imagesAbout/herceg.jpg',
+        desc: ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, corrupti.'
+    },
+    {
+        id: 9,
+        name: 'Veljko Stanojevic',
+        email: 'veljko.stanojevic@svea.com',
+        category: `Mentors`,
+        img: './imagesAbout/veljko.jpg',
+        desc: ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, corrupti.'
+    },
 ];
+
 
 export default team;
